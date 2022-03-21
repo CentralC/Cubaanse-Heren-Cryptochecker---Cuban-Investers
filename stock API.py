@@ -1,7 +1,7 @@
 import requests
 import csv
 
-CSV_URL = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=64TY7285TUX7FM6P'
+CSV_URL = ''https://www.alphavantage.co/query?function=CRYPTO_INTRADAY&symbol=ETH&market=USD&interval=5min&apikey=64TY7285TUX7FM6P'
 
 with requests.Session() as s:
     download = s.get(CSV_URL)
